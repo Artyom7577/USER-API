@@ -1,0 +1,19 @@
+{
+  "name": "USER-API",
+  "version": "1.0.0",
+  "description": "Node MySQL crud API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index"
+  },
+  "devDependencies": {
+    "mysql": "^2.18.1"
+  },
+  "author": "artyom",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "postgre": "^0.1.8"
+  }
+}
